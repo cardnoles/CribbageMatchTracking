@@ -1,6 +1,6 @@
 # CribbageMatchTracking
 
-![a tic-tac-toe board](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStko2seISMuGrQCe-yyEGYXvwSbn6YnQRnT4sScdYQxrl7myme)
+![cribbage hand](http://cribbagecorner.com/sites/cribbagecorner.com/files/29-hand.png)
 
 ###Project Four
 
