@@ -28,6 +28,8 @@ Keep track of every game of cribbage you play!  Review the results by opponent o
 * MongoDB and Mongoose
 * Node.js
 * Express
+* Bower
+* npm
 
 
 ###Links
