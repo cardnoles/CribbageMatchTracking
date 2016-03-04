@@ -36,9 +36,13 @@ th {
   text-align: center;
 }
 td {
-  text-align: left;
+  text-align: center;
   font-size: 20px;
   color: #000;
+}
+a.acc img {
+  border: 2px solid #f00;
+  margin-top: 45px;
 }
 footer {
   padding-left: 15px;
