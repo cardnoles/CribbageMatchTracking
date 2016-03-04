@@ -1,0 +1,17 @@
+.container
+  .jumbotron
+    .main
+      h1 Track All of Your Cribbage Matches
+        p <strong>Welcome to the Cribbage Tracking App!</strong>
+        p <strong>Record all of your games and see who you have played!</strong>
+
+
+  .row
+    .col-md-6
+      div(ng-include="'/partials/main/featured-courses'")
+    .col-md-6
+      div(ng-include="'/partials/main/new-courses'")
+
+  section
+    h3
+      a(href="/courses/new") Add a new result

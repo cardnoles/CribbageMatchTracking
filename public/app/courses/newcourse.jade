@@ -1,0 +1,34 @@
+.container
+  .well
+    form.form-horizontal(name="newcourseForm")
+      fieldset
+        legend New Match Information
+        .form-group
+          label.col-md-2.control-label(for="title") Opponent Name
+          .col-md-10
+            input.form-control(name="title", type="text", placeholder="opponent name", ng-model="title", required)
+        .form-group
+          label.col-md-2.control-label(for="featured") Win? enter true or false
+          .col-md-10
+            input.form-control(name="featured", type="boolean", placeholder="win or lose", ng-model="featured", required)
+        .form-group
+          label.col-md-2.control-label(for="published") Date played
+          .col-md-10
+            input.form-control(name="published", type="date", placeholder="Date played", ng-model="published", required)
+        .form-group
+          label.col-md-2.control-label(for="tags") Tournament name
+          .col-md-10
+            input.form-control(name="tags", type="text", placeholder="tournament name", ng-model="tags", required)
+        .form-group
+          .col-md-10.col-md-offset-2
+            .pull-right
+              button.btn.btn-primary(ng-click="addcourse()", ng-disabled="newcourseForm.$invalid") Submit
+              | &nbsp;
+              a.btn.btn-default(href="/") Cancel
+
+
+
+
+
+
+
